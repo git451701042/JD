@@ -1,0 +1,2235 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>京东商城首页</title>
+	<script src="static/lib/jquery-1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="static/css/JD.css">
+</head>
+<body id="app">
+<!-- 向下滑动搜索框 JQ start -->
+	<div class="search-no">
+		<div class="no-wrap">
+			<div class="nw-l">
+				<a class="l-oo" href="javascript:;"></a>
+			</div>
+			<div class="l-op">
+				<input class="put-top" type="text" value="蓝月亮洗手液">
+				<span class="pt-s"></span>
+				<button class="pt-an">
+					<span><img src="static/img/images-index/da.png"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			var ac = $(window).scrollTop();
+			// console.log(ac);
+			var ab = $('.need-nav').offset().top;
+			// console.log(ab);
+			if(ac>=ab){
+				$('.search-no').slideDown(400);
+			}else{
+				$('.search-no').slideUp(50);
+			}
+
+		})
+	</script>
+<!-- 向下滑动搜索框 JQ end -->
+
+<!-- 顶部图片 start -->
+	<div id="top">
+		<div class="top-img"></div>
+	</div>
+<!-- 顶部图片 end -->
+
+<!-- 顶部图片下导航 start -->
+	<div id="top-center">
+		<div class="daohang">
+			<ul class="left-td"></ul>
+			<ul class="tr">
+				<li class="l1">
+					<a class="a1" href="">你好，请登录</a>
+					&nbsp;
+					<a class="a2" href="">免费注册</a>
+					<li class="aa"></li>
+				</li>
+				<li class="l2">
+					<div class="td">
+						<a href="">我的订单</a>
+					</div>
+					<li class="aa"></li>
+				</li>
+				<li class="l3">
+					<div class="td">
+						<a href="">我的京东</a>
+					</div>
+					<li class="aa"></li>
+				</li>
+				<li class="l4">
+					<div class="td">
+						<a href="">京东会员</a>
+					</div>
+					<li class="aa"></li>
+				</li>
+				<li class="l5">
+					<div class="td">
+						<a href="">企业采购</a>
+					</div>
+					<li class="aa"></li>
+				</li>
+				<li class="l6">
+					<div class="td">
+						<a href="">客户服务</a>
+					</div>
+					<li class="aa"></li>
+				</li>
+				<li class="l7">
+					<div class="td">
+						<a href="">网站导航</a>
+					</div>
+					<li class="aa"></li>
+				</li>
+				<li class="l8">
+					<div class="td">
+						<a href="">手机京东</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- 顶部图片下导航 end -->
+
+<!-- logo.搜索框部分 start -->
+	<div id="top-bottom">
+		<div class="top-borrom-beijing">
+			<div class="top-borrom-beijing-center">
+				<div class="left-logo">
+					<a href=""><img src="static/img/images-index/2.jpg"></a>
+				</div>
+				<div class="left-top"> 
+					<div class="left-top-top">
+						<div class="from">
+							<input class="qqq" type="text">
+							<span class="xj">
+								<a  class="a1" href=""></a>
+							</span>
+							<button>
+								<img src="static/img/images-index/3.jpg" alt="">
+							</button>
+						</div>
+						<div id="gouwuche">
+							<div class="gouhuche-beijing">
+							<img src="static/img/images-index/4.jpg" alt="">
+							<i>0</i>
+							<a href="">我的购物车</a>
+							</div>
+							<div class="xiamian">
+							</div>
+						</div>
+						<div class="left-right">
+							<div class="left-right-img">
+								
+							</div>
+						</div>
+						<div class="left-center">
+							<a class="red" href="">八代酷睿</a>
+							<a href="">直降1000</a>
+							<a href="">农资畜牧</a>
+							<a href="">Armani开业</a>
+							<a href="">智能电视</a>
+							<a href="">商务休闲鞋</a>
+							<a href="">煎饼档</a>
+							<a href="">食品中秋季</a>
+						</div>
+					</div>
+					<div class="left-bottom">
+						<ul class="ul1">
+							<li>
+								<a href="">秒杀</a>
+							</li>
+							<li>
+								<a href="">优惠价</a></li>
+							<li>
+								<a href="">闪购</a>
+							</li>
+							<li>
+								<a href="">拍卖</a>
+							</li>
+						</ul>
+						<div class="shuxian"></div>
+						<ul class="ul2">
+							<li>
+								<a href="">服装</a>
+							</li>
+							<li>
+								<a href="">京东超市</a>
+							</li>
+							<li>
+								<a href="">生鲜</a>
+							</li>
+							<li>
+								<a href="">全球购</a>
+							</li>
+						</ul>
+						<div class="shuxian1"></div>
+						<ul class="ul3">
+							<li>
+								<a href="">京东金融</a>
+							</li>
+						</ul>
+					</div>
+					<div class="bottom-right">
+					<a href=""><img src="static/img/images-index/3.png" alt=""></a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- logo.搜索框部分 end -->
+
+<!-- 大图部分start -->
+	<div id="center">
+		<div class="center-beijing">
+			<!-- 二级导航左 -->
+			<div class="center-beijing-left">
+				<div class="center-beijing-left1">
+					<ul class="ul4">
+						<li><a href="">家用电器</a></li>
+						<li>
+							<a href="">手机</a>
+							<span>/</span>
+							<a href="">运营商</a>
+							<span>/</span>
+							<a href="">数码</a>
+						</li>
+						<li>
+							<a href="">电脑</a>
+							<span>/</span>
+							<a href="">办公</a>
+						</li>
+						<li>
+							<a href="">家居</a>
+							<span>/</span>
+							<a href="">家居</a>
+							<span>/</span>
+							<a href="">家装</a>
+							<span>/</span>
+							<a href="">厨具</a>
+						</li>
+						<li>
+							<a href="">男装</a>
+							<span>/</span>
+							<a href="">女装</a>
+							<span>/</span>
+							<a href="">童装</a>
+							<span>/</span>
+							<a href="">内衣</a>
+						</li>
+						<li>
+							<a href="">美妆个护</a>
+							<span>/</span>
+							<a href="">宠物</a>
+						</li>
+						<li>
+							<a href="">女鞋</a>
+							<span>/</span>
+							<a href="">箱包</a>
+							<span>/</span>
+							<a href="">钟表</a>
+							<span>/</span>
+							<a href="">珠宝</a>
+						</li>
+						<li>
+							<a href="">男鞋</a>
+							<span>/</span>
+							<a href="">运动</a>
+							<span>/</span>
+							<a href="">户外</a>
+						</li>
+						<li>
+							<a href="">汽车</a>
+							<span>/</span>
+							<a href="">汽车用品</a>
+						</li>
+						<li>
+							<a href="">母婴</a>
+							<span>/</span>
+							<a href="">玩具乐器</a>
+						</li>
+						<li>
+							<a href="">食品</a>
+							<span>/</span>
+							<a href="">酒类</a>
+							<span>/</span>
+							<a href="">生鲜</a>
+							<span>/</span>
+							<a href="">特产</a>
+						</li>
+						<li>
+							<a href="">礼品鲜花</a>
+							<span>/</span>
+							<a href="">农资绿植</a>
+						</li>
+						<li>
+							<a href="">医药保健</a>
+							<span>/</span>
+							<a href="">计生情趣</a>
+						</li>
+						<li>
+							<a href="">图书</a>
+							<span>/</span>
+							<a href="">音像</a>
+							<span>/</span>
+							<a href="">电子书</a>
+						</li>
+						<li>
+							<a href="">机票</a>
+							<span>/</span>
+							<a href="">酒店</a>
+							<span>/</span>
+							<a href="">旅游</a>
+							<span>/</span>
+							<a href="">生活</a>
+						</li>
+						<li>
+							<a href="">理财</a>
+							<span>/</span>
+							<a href="">众筹</a>
+							<span>/</span>
+							<a href="">白条</a>
+							<span>/</span>
+							<a href="">保险</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 二级导航中 -->
+
+			<!-- 轮播图效果 JQ -->
+			<div class="center-beijing-top">
+				<ul class="center-uu">
+					<li class="uu-l">
+						<img src="static/img/images-index/img1.jpg" alt="">
+					</li>
+					<li class="uu-l">
+						<img src="static/img/images-index/img2.jpg" alt="">
+					</li>
+					<li class="uu-l">
+						<img src="static/img/images-index/img3.jpg" alt="">
+					</li>
+					<li class="uu-l">
+						<img src="static/img/images-index/img4.jpg" alt="">
+					</li>
+					<li class="uu-l">
+						<img src="static/img/images-index/img5.jpg" alt="">
+					</li>
+					<li class="uu-l">
+						<img src="static/img/images-index/img6.jpg" alt="">
+					</li>
+					<li class="uu-l">
+						<img src="static/img/images-index/img7.jpg" alt="">
+					</li>
+					<li class="uu-l">
+						<img src="static/img/images-index/img7.jpg" alt="">
+					</li>
+				</ul>
+				<ol class="center-oo">
+					<li class="oo-l pct bgp"></li>
+					<li class="oo-l"></li>
+					<li class="oo-l"></li>
+					<li class="oo-l"></li>
+					<li class="oo-l"></li>
+					<li class="oo-l"></li>
+					<li class="oo-l"></li>
+				</ol>
+				<a class="prve" href="javascript:;"><</a>
+				<a class="nextt" href="jacascript:;">></a>
+			</div>
+			<div class="center-beijing-bottom">
+				<div class="img1"><img src="static/img/images-index/6.jpg" alt=""></div>
+				<div class="img2"><img src="static/img/images-index/7.jpg" alt=""></div>
+			</div>
+
+			<script type="text/javascript">
+			$(function(){
+				// 默认显示 第 0 张图片
+				var i = 0;
+
+				// 自动播放定时器
+				var autoPlayTime;
+
+				// 幻灯片自动播放的时间
+				var autoTime = 3000;
+
+				// 获取幻灯片的第一张图片克隆
+				var firstImg = $('.center-uu li').first().clone();
+
+				// 放到图片列表的最后 并设置图片列表 的宽度
+				$('.center-uu').append(firstImg).width( $('.center-uu li').length*$('.center-beijing-top').width() );
+
+				// 下一张
+				$('.nextt').click(function(){
+					i++;
+					// 移动到指定的图片	
+					moveImg()
+				});
+
+				// 上一张
+				$('.prve').click(function(){
+					i--;
+					// 移动到指定的图片	
+					moveImg()
+				});
+
+				// 跳到指定的图片
+				$('.center-oo li').click(function(){
+					// 把 当前标记的索引 赋值给 i 
+					i = $(this).index();
+					// 移动到指定的图片	
+					moveImg();
+				});
+
+				// 自动播放
+				autoPlay();
+				function autoPlay(){
+					if(autoPlayTime) return;
+					autoPlayTime = setInterval(function(){
+						i++;
+						// 移动到指定的图片	
+						moveImg()		
+					},autoTime);		
+				}
+
+				$('.center-beijing-top').mouseover(function(){
+					//鼠标移入幻灯片停止自动播放
+					clearInterval(autoPlayTime);
+					autoPlayTime = null;
+					//鼠标移入幻灯片让按钮显示
+					$('.center-beijing-top a').show();
+				}).mouseout(function(){
+					//鼠标移出幻灯片自动播放
+					autoPlay();
+					//鼠标移出幻灯片 让按钮隐藏
+					$('.center-beijing-top a').hide();
+				});
+
+				// 移动到指定的图片	
+				function moveImg(){
+					// 如果是最后一张图片
+					if(i==$('.center-uu li').length){
+						$('.center-uu').css({left:0});
+						i = 1;
+					}
+
+					// 如果是第一张图片
+					if(i==-1){
+						$('.center-uu').css({left: -($('.center-uu li').length-1)*$('.center-beijing-top').width()})
+						i = $('.center-uu li').length-2;
+					}
+
+					// 切换图片对应的小圆点
+					if(i == $('.center-uu li').length-1){
+						// 如果跳转到 克隆的那一张图片就让第一个小圆点背景改变
+						$('.center-oo li').removeClass('bgp');	
+						$('.center-oo li').eq(0).addClass('bgp');
+					}else{
+						$('.center-oo li').removeClass('bgp');	
+						$('.center-oo li').eq(i).addClass('bgp');			
+					}
+
+					// 跳转到指定的图片
+					$('.center-uu').stop().animate({left:$('.center-beijing-top').width()*-i},1000);
+				}
+			});	
+			</script>
+			<!-- 轮播图效果 end -->
+
+			<!-- 二级导航右 -->
+			<div class="center-beijing-right">
+				<div class="center-beijing-right-top">
+					<div class="center-beijing-right-top1">
+						<div class="top2">
+							<img src="static/img/images-index/8.jpg" alt="">
+							<a href=""></a>
+						</div>
+						<div class="top3">
+							<p>Hi,欢迎来到京东!</p>
+							<p>
+								<a href="">登录</a>
+								<a href="">注册</a>
+							</p>
+						</div>
+					</div>
+				<div class="top4">
+					<a href="">新人福利</a>
+					<a href="">PLUS会员</a>			
+				</div>
+				</div>
+				<div class="center-beijing-right-center">
+					<div class="top1">
+						<a href="">促销</a>
+						<a class="a1" href="">公告</a>
+						<a class="a2" href="">更多</a>
+					</div>
+					<div class="top2">
+						<ul>
+							<li>
+								<a href="">京东扶贫频道正式上线运营</a>
+							</li>
+							<li>
+								<a href="">京东全球售升级  新域名同步启用</a>
+							</li>
+							<li>
+								<a href="">京东会员体系全新升级</a>
+							</li>
+							<li>
+								<a href="">《京东隐私政策》修改公告</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="center-beijing-right-bottom">
+					<ul>
+						<li>
+							<a class="a10" href="">
+								<i class="i1"></i>
+								<span>话费</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i2"></i>
+								<span>机票</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i3"></i>
+								<span>酒店</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i4"></i>
+								<span>游戏</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i5"></i>
+								<span>企业购</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i6"></i>
+								<span>加油卡</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i7"></i>
+								<span>火车票</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i8"></i>
+								<span>电影票</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i9"></i>
+								<span>众筹</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i10"></i>
+								<span>理财</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i11"></i>
+								<span>礼品卡</span>
+							</a>
+						</li>
+						<li>
+							<a class="a10" href="">
+								<i class="i12"></i>
+								<span>白条</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+<!-- 大图部分end -->
+
+<!-- 京东秒杀start -->
+	<div class="need-nav">
+		<div class="layout">
+			<div class="box-hd">
+				<div class="hd-col1">
+				<i class="hd-dec">
+					
+				</i>
+				<i class="hd-ico">
+					
+				</i>
+				<h3>京东秒杀</h3>
+				<a href="">总有你想不到的低价</a>
+				</div>
+				<div class="hd-col2">
+
+					<!-- 计时器效果JQ start -->
+					<div class="tmter">
+						<span>当前场次</span>
+						<div class="timing">
+							<div class="item">
+							<span class="tim-1">
+								09
+							</span>	
+							</div>
+							<div class="split">
+								<i></i>
+								<i></i>
+							</div>
+							<div class="item">
+							<span class="tim-2">
+								09
+							</span>	
+							</div>
+							<div class="split">
+								<i></i>
+								<i></i>
+							</div>
+							<div class="item">
+							<span class="tim-3">
+								09
+							</span>	
+							</div>
+						</div>
+						<span>后结束抢购</span>
+					</div>
+				</div>	
+			</div>
+			<script type="text/javascript">
+
+			function gettim(){
+
+				var mydate = new Date();
+				var h = mydate.getHours();
+
+				var m = mydate.getMinutes();
+
+				var s = mydate.getSeconds();
+
+				// timer.innerHTML = h;
+				$('.tim-1').html(getTwo(h));
+				$('.tim-2').html(getTwo(m));
+				$('.tim-3').html(getTwo(s));
+
+				setTimeout(gettim,1000);
+			}
+			gettim();
+
+			function getTwo(num){
+				if(num>=0 && num<10){
+					return '0'+num;
+				}
+				return num
+			}
+			
+			</script>
+			<!-- 计时器效果 JQ end -->
+
+			<div class="box-bd">
+				<div class="list-wrapper">
+					<ul>
+					<li>
+						<div class="item-pic">
+						<a href="">
+							<img src="static/img/images-index/595207a7Nd013400c.jpg">
+							<p>【超值套装】小米 红米 4X 全网通版 2GB 16GB 樱花粉 移动联通电信4G手机</p>
+						</a>		
+					</div>
+					<p class="item-price">
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<span>
+								699.00
+								</span>
+							</span>
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<del>
+								999.00
+								</del>
+							</span>
+						</p>
+					</li>
+					<li>
+						<div class="item-pic">
+						<a href="">
+							<img src="static/img/images-index/591924aaNff5a92b2 (1).jpg">
+							<p>福临门 特选东北大米 粳米 中粮出品 大米 5kg</p>
+						</a>		
+					</div>
+					<p class="item-price">
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<span>
+								27.90
+								</span>
+							</span>
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<del>
+								45.90
+								</del>
+							</span>
+						</p>
+					</li>
+					<li>
+						<div class="item-pic">
+						<a href="">
+							<img src="static/img/images-index/59db1545N63d6c707.jpg">
+							<p>福临门 非转基因压榨玉米油（京东定制）6.18L 中粮出品 新老包装随机发</p>
+						</a>		
+					</div>
+					<p class="item-price">
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<span>
+								69.50
+								</span>
+							</span>
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<del>
+								95.90
+								</del>
+							</span>
+						</p>
+					</li>
+					<li>
+						<div class="item-pic">
+						<a href="">
+							<img src="static/img/images-index/58057c53N05b1f901.jpg">
+							<p>丹尼尔惠灵顿（DanielWellington）手表DW男表40mm黑表盘金色边皮带超薄男士石英手表DW00100127</p>
+						</a>		
+					</div>
+					<p class="item-price">
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<span>
+								1288.00
+								</span>
+							</span>
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<del>
+								1615.00
+								</del>
+							</span>
+						</p>
+					</li>
+					<li>
+						<div class="item-pic">
+						<a href="">
+							<img src="static/img/images-index/59bb953cNa24ba009.jpg">
+							<p>【24盒装】蒙牛 纯甄 常温酸牛奶 200g*24 家庭装</p>
+						</a>		
+					</div>
+					<p class="item-price">
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<span>
+								84.90
+								</span>
+							</span>
+							<span class="mod-price">
+								<i>
+								￥
+								</i>
+								<del>
+								112.00
+								</del>
+							</span>
+						</p>
+					</li>
+					</ul>
+				</div>
+				<div class="special">
+					<a href="">
+						<img src="static/img/images-index/59bb7cceN7afbebc1.jpg">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 京东秒杀end -->
+
+<!-- 发现好货start -->
+	<div class="fbt">
+		<div class="layout">
+			<div class="fbt-col1">
+				<div class="box-hd">
+					<i class="hd-arrow">	
+					</i>
+					<i class="hd-dec">
+					</i>
+					<h3>发现好货</h3>
+					<a href="">发现品质生活</a>
+				</div>
+				<div class="box-bd">
+					<ul class="find-list">
+						<li>
+							<a href="">
+								<p>AK特工款工装裤</p>
+								<img src="static/img/images-index/5991ae0cNc978116d.jpg!q90.webp">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p>兰蔻 舒缓面霜组合</p>
+								<img src="static/img/images-index/58b9047dN573a1cd5.jpg!q90.webp">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p>糖力女士宽松外套</p>
+								<img src="static/img/images-index/59e89d56N851a2bb5.jpg!q90.webp">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p>哥弟刺绣针织毛衣</p>
+								<img src="static/img/images-index/59e872f6Nfe349029.png!q90.webp">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p>Y-3波浪底休闲鞋</p>
+								<img src="static/img/images-index/5899a1b2N08b086b6.jpg!q90.webp">
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<p>季候风涂鸦毛衣</p>
+								<img src="static/img/images-index/59e89dd5N3454e2cb.jpg!q90.webp">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="fbt-col2">
+				<div class="box-hd">
+					<i class="hd-arrow">
+					</i>
+					<i class="hd-dec">
+					</i>
+					<h3>会买专辑</h3>
+					<a href="">甄选优质好物</a>
+				</div>
+				<div class="box-bd">
+					<div class="sup-page">
+						<a href="">
+							<p>厨房新装需格调，这些厨电来提升</p>
+							<img src="static/img/images-index/5844d9c5Nc701fb2a.jpg"><img 
+							src="static/img/images-index/5859d552N701e23c5.jpg"><img 
+							src="static/img/images-index/594a30d3N29dedd9a (1).jpg">
+						</a>
+						<a href="">
+							<p>健忘一族福音，水壶防烧干更安心</p>
+							<img src="static/img/images-index/542a60c6N3b2adffe.jpg"><img 
+							src="static/img/images-index/568f8bacNd530c0d1.jpg"><img 
+							src="static/img/images-index/5616302dNe1704a6a.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="fbt-col3">
+				<div class="box-hd">
+					<i class="hd-arrow">	
+					</i>
+					<i class="hd-dec">
+					</i>
+					<h3>排行榜</h3>
+					<a href="">专属你的购物指南</a>
+				</div>
+
+				<!-- 选项卡效果 JQ start -->
+				<div class="box-bd">
+					<div class="top-head">
+						<a href="">吸顶灯</a><a 
+						href="">手机通讯</a><a 
+						href="">童车童床</a><a 
+						href="">男装</a><a 
+						href="">卧室家具</a>
+					</div>
+					<div class="rop-content">
+						<ul class="top-list" style="display:block">
+							<li>
+								<a href="">
+									<div class="top-rank">
+										1
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/d-1.jpg">
+									</div>
+									<p>欧普照明LED吸顶<br>灯客厅卧室灯阳台</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										2
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/d-2.jpg">
+									</div>
+									<p>欧普照明LED吸顶<br>灯卧室餐厅书房灯</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										3
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/d-3.jpg">
+									</div>
+									<p>佛山照明(FSL)L<br>ED吸顶灯节能灯具</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										4
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/d-4.jpg">
+									</div>
+									<p>TCL照明LED卧室<br>吸顶灯客厅现代</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										5
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/d-5.jpg">
+									</div>
+									<p>雷士(NVC)雷士<br>照明LED吸顶灯智</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										6
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/d-6.jpg">
+									</div>
+									<p>欧普照明(OPPLE)LED吸顶灯具</p>
+								</a>
+							</li>
+						</ul>
+						<ul class="top-list">
+							<li>
+								<a href="">
+									<div class="top-rank">
+										1
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/599c0685N7be1409a.jpg!q90.webp">
+									</div>
+									<p>华为畅享7 Plus 3GB+32GB 移动4G+版 黑色 移动联通电信4G手机 双卡双待</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										2
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/57d0d400Nfd249af4.jpg!q90.webp">
+									</div>
+									<p>【Apple iPhone 7 (A1660) 128G 黑色 移动联通电信4G手机</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										3
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/593ba628N8794c6a6.jpg!q90.webp">
+									</div>
+									<p>小米 红米Note4X 全网通版 4GB+64GB 浅蓝色 移动联通电信4G手机</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										4
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/592ea01dN21f56b59.jpg!q90.webp">
+									</div>
+									<p>OPPO R11 全网通4G+64G  双卡双待手机 黑色</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										5
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/58043ecaN119d6704.jpg!q90.webp">
+									</div>
+									<p>荣耀 畅玩6X 4GB+64GB 全网通4G手机 尊享版 铂光金</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										6
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/542d0798N19d42ce3.jpg!q90.webp">
+									</div>
+									<p>Apple iPhone 6 32GB 金色 移动联通电信4G手机</p>
+								</a>
+							</li>
+						</ul>
+						<ul class="top-list">
+							<li>
+								<a href="">
+									<div class="top-rank">
+										1
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/to-1.jpg">
+									</div>
+									<p>【京东配送】CHB<br>ABY 儿童餐椅实木</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										2
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/to-2.jpg">
+									</div>
+									<p>【京东配送】贝丽<br>可（belecoo）高</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										3
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/to-3.jpg">
+									</div>
+									<p>【京东配送】TEK<br>NUM 婴儿推车高</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										4
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/to-4.jpg">
+									</div>
+									<p>gb好孩子多功能婴<br>儿推车A513-B-L1</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										5
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/to-5.jpg">
+									</div>
+									<p>荟智 Huizhi 多功<br>能实木婴儿餐椅儿</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										6
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/to-6.jpg">
+									</div>
+									<p>【京东配送】儿童<br>电动车M6加长版</p>
+								</a>
+							</li>
+						</ul>
+						<ul class="top-list">
+							<li>
+								<a href="">
+									<div class="top-rank">
+										1
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/nan-1.jpg">
+									</div>
+									<p>花花公子 长袖衬衫<br>男2017秋季新款</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										2
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/nan-2.jpg">
+									</div>
+									<p>花花公子海宁皮衣<br>男冬季皮毛一体中</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										3
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/nan-3.jpg">
+									</div>
+									<p>Baleno/班尼路 纯<br>色舒适打底衫男 衣</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										4
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/nan-4.jpg">
+									</div>
+									<p>袋鼠DaiShu 夹克<br>男秋冬新款2017</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										5
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/nan-5.jpg">
+									</div>
+									<p>买1送1 长袖T恤男<br>秋款卫衣男装上衣</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										6
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/nan-6.jpg">
+									</div>
+									<p>仕季 长袖T恤男秋<br>季新款圆领打底衫</p>
+								</a>
+							</li>
+						</ul>
+						<ul class="top-list">
+							<li>
+								<a href="">
+									<div class="top-rank">
+										1
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/wo-1.jpg">
+									</div>
+									<p>木以成居 床头柜<br> 简约带抽屉茶几收</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										2
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/wo-2.jpg">
+									</div>
+									<p>宜眠坊（ESF）床<br>垫 席梦思弹簧床垫</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										3
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/wo-3.jpg">
+									</div>
+									<p>闽言简易衣柜加粗<br>实木1米小号组合</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										4
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/wo-4.jpg">
+									</div>
+									<p>美好家  简易衣柜<br> 带鞋架双人布衣柜</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										5
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/wo-5.jpg">
+									</div>
+									<p>蔻丝简易衣柜塑料<br>钢架现代简约收纳</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="top-rank">
+										6
+									</div>
+									<div class="top-pic">
+										<img src="static/img/images-index/wo-6.jpg">
+									</div>
+									<p>A家家具 床 实木框<br>床1.5米1.8米双人</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<script type="text/javascript">
+						$('.top-head a').mouseover(function(){
+							$(this).css('color','red');
+
+							$('.top-list').css('display','none')
+
+							$('.top-list').eq($(this).index()).css('display','block');
+						}).mouseout(function(){
+							$(this).css('color','#666');
+						})
+					</script>
+				</div>
+				<!-- 选项卡效果 JQ end --> 
+
+			</div>
+
+		</div>	
+	</div>
+<!-- 发现好货end -->
+
+<!-- 广告部分start -->
+	<div class="rec">
+		<div class="layout">
+		<ul>
+			<li>
+				<a href="">
+					<img src="static/img/images-index/59b8f402N3427d3d9.jpg">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="static/img/images-index/58522b9dNf06d6f3d.jpg">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="static/img/images-index/58522b1bN916da74b.jpg">
+				</a>
+			</li>
+		</ul>
+		</div>
+	</div>
+<!-- 广告部分end -->
+
+<!-- 爱生活start -->
+	<div class="ftit">
+		<div class="ftit-inner">
+			<h3>爱生活</h3>
+		</div>
+	</div>
+<!-- 爱生活end -->
+
+<!-- 爱逛、爱美丽   start -->
+	<div id="naw2" class="nap topp">
+		<div class="naw2-beijing">
+			<div class="n-l">
+				<div class="naw-beijing-top2 clor1">
+					<h4>爱逛</h4>
+					<div class="erweima2"></div>
+					<div class="daohang2">
+						<a href="">卡宾</a>
+						<a href="">保暖冬靴</a>
+						<a href="">童装童鞋</a>
+						<a href="">珠宝</a>
+						<a href="">DW</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do2">
+					<div class="do-up">
+						<div class="up-q">
+							<img src="static/img/images-index/fu-1.png">
+						</div>
+						<div class="up-q">
+							<a class="u-7" href="#">
+								<p>型男保暖</p>
+								<p>羽绒服<br>99元</p>
+								<img src="static/img/images-index/fu-2.jpg">
+							</a>
+							<a class="u-8" href="#">
+								<p>保暖大作战</p>
+								<p>新品直降</p>
+								<img src="static/img/images-index/fu-3.jpg">
+							</a>
+						</div>
+						<div class="up-q">
+							<a class="u-9" href="#">
+								<p>女装盛宴</p>
+								<p>不止五折</p>
+								<img src="static/img/images-index/fu-4.jpg">
+							</a>
+							<a class="u-10" href="#">
+								<p>保暖冬靴</p>
+								<p>跨店299<br>减50</p>
+								<img src="static/img/images-index/fu-5.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do2-down">
+					<a class="down-z">
+						<img src="static/img/images-index/fu-6.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/fu-7.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/fu-8.png">
+					</a>
+				</div>
+				</div>
+			</div>
+			<div class="n-r">
+				<div class="naw-beijing-top3 clor2">
+					<h5>爱美丽</h5>
+					<div class="erweima3"></div>
+					<div class="daohang3">
+						<a href="">洁面</a>
+						<a href="">套装</a>
+						<a href="">面膜</a>
+						<a href="">眼霜</a>
+						<a href="">女性护理</a>
+						<a href="">洗发护发</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do3">
+					<div class="do-up3">
+						<div class="up-m">
+							<img src="static/img/images-index/ai-1.png">
+						</div>
+						<div class="up-m">
+							<a class="u-15" href="#">
+								<p>IN货推荐</p>
+								<p>立省<br>1600</p>
+								<img src="static/img/images-index/ai-2.jpg">
+							</a>
+							<a class="u-16" href="#">
+								<p>0元试用</p>
+								<p>雷神K60</p>
+								<img src="static/img/images-index/ai-3.jpg">
+							</a>
+						</div>
+						<div class="up-m">
+							<a class="u-17" href="#">
+								<p>金融新手</p>
+								<p>送666礼<br>包</p>
+								<img src="static/img/images-index/ai-4.jpg">
+							</a>
+							<a class="u-18" href="#">
+								<p>科技酷品</p>
+								<p>119秒杀</p>
+								<img src="static/img/images-index/ai-5.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do3-down">
+					<a class="down-n">
+						<img src="static/img/images-index/jj1.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/jj2.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/jj3.png">
+					</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 爱逛、爱美丽   end -->
+
+<!-- 家电/搞机派 start-->
+	<div id="naw2" class="nap">
+		<div class="naw2-beijing">
+			<div class="n-l">
+				<div class="naw-beijing-top2 clor3">
+					<h4>家电馆</h4>
+					<div class="erweima2"></div>
+					<div class="daohang2">
+						<a href="">取暖节</a>
+						<a href="">生活电器</a>
+						<a href="">满千减百</a>
+						<a href="">冰洗满减</a>
+						<a href="">电视家影</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do2">
+					<div class="do-up">
+						<div class="up-q">
+							<img src="static/img/images-index/jjd-1.png">
+						</div>
+						<div class="up-q">
+							<a class="u-7" href="#">
+								<p>取暖节</p>
+								<p>领立减<br>300优惠<br>券</p>
+								<img src="static/img/images-index/jjd-2.jpg">
+							</a>
+							<a class="u-8" href="#">
+								<p>个护健康</p>
+								<p>满100减<br>10元</p>
+								<img src="static/img/images-index/jjd-3.jpg">
+							</a>
+						</div>
+						<div class="up-q">
+							<a class="u-9" href="#">
+								<p>11.11提前抢</p>
+								<p>家电买1<br>赠1</p>
+								<img src="static/img/images-index/jjd-4.jpg">
+							</a>
+							<a class="u-10" href="#">
+								<p>厨房小家电</p>
+								<p>大促提前<br>抢</p>
+								<img src="static/img/images-index/jjd-5.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do2-down">
+					<a class="down-z">
+						<img src="static/img/images-index/jjd-6.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/jjd-7.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/jjd-8.png">
+					</a>
+				</div>
+				</div>
+			</div>
+			<div class="n-r">
+				<div class="naw-beijing-top3 clor4">
+					<h5>搞机派</h5>
+					<div class="erweima3"></div>
+					<div class="daohang3">
+						<a href="">金属机身</a>
+						<a href="">快速充电</a>
+						<a href="">拍照神器</a>
+						<a href="">后置双摄像</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do3">
+					<div class="do-up3">
+						<div class="up-m">
+							<img src="static/img/images-index/gj-1.png">
+						</div>
+						<div class="up-m">
+							<a class="u-15" href="#">
+								<p>IN货推荐</p>
+								<p>立省<br>1600</p>
+								<img src="static/img/images-index/gj-2.jpg">
+							</a>
+							<a class="u-16" href="#">
+								<p>0元试用</p>
+								<p>雷神K60</p>
+								<img src="static/img/images-index/gj-3.jpg">
+							</a>
+						</div>
+						<div class="up-m">
+							<a class="u-17" href="#">
+								<p>金融新手</p>
+								<p>送666礼<br>包</p>
+								<img src="static/img/images-index/gj-4.jpg">
+							</a>
+							<a class="u-18" href="#">
+								<p>科技酷品</p>
+								<p>119秒杀</p>
+								<img src="static/img/images-index/gj-5.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do3-down">
+					<a class="down-n">
+						<img src="static/img/images-index/gj-6.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/gj-7.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/gj-8.png">
+					</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 家电/搞机派 end-->
+
+<!-- 电脑数码  start -->
+	<div id="naw" class="nap">
+		<div class="naw-beijing">
+			<div class="naw-beijing-top clor5">
+				<h3>电脑数码</h3>
+				<div class="erweima"></div>
+				<div class="daohang">
+					<a href="">电脑管</a>
+					<a href="">游戏极品</a>
+					<a href="">装机大师</a>
+					<a href="">饮料冲调</a>
+					<a href="">职场换新</a>
+					<a href="">女神频道</a>
+					<a href="">虚拟现实</a>
+					<a href="">二合一平板</a>
+					<a href="">电子教育</a>
+					<a href="">飞行馆</a>
+					<a href="">全球智选</a>
+					<a href="">照片冲印</a>
+				</div>
+			</div>
+			<div class="naw-beijing-down">
+				<div class="down-l">
+					<div class="l-up">
+						<div class="up-w">
+							<img src="static/img/images-index/dn-1.png">
+						</div>
+						<div class="up-w">
+							<a class="u-3" href="#">
+								<p>粮油调味</p>
+								<p>满149减<br>50</p>
+								<img src="static/img/images-index/dn-2.jpg">
+							</a>
+							<a class="u-4" href="#">
+								<p>休闲零食</p>
+								<p>满99减<br>50</p>
+								<img src="static/img/images-index/dn-3.jpg">
+							</a>
+						</div>
+						<div class="up-w">
+							<a class="u-5" href="#">
+								<p>饮料冲调</p>
+								<p>每满99<br>减30</p>
+								<img src="static/img/images-index/dn-4.jpg">
+							</a>
+							<a class="u-6" href="#">
+								<p>中外名酒</p>
+								<p>满199减<br>100</p>
+								<img src="static/img/images-index/dn-5.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="l-down">
+						<a class="down-w">
+							<img src="static/img/images-index/dn-6.png">
+						</a>
+						<a class="down-w">
+							<img src="static/img/images-index/dn-7.png">
+						</a>
+						<a class="down-w">
+							<img src="static/img/images-index/dn-8.png">
+						</a>
+					</div>
+				</div>
+				<div class="down-r">
+					<div class="r-up">
+						<div class="up-x">
+							<a href="#">
+								<img src="static/img/images-index/dn-9.png">
+							</a>
+						</div>
+						<div class="up-x">
+							<a href="#">
+								<img src="static/img/images-index/food2.png">
+							</a>
+						</div>
+						<div class="up-x d1">
+							<a class="u-1" href="#">
+								<p>东家菜</p>
+								<p>精致生活<br>一键立享</p>
+								<img src="static/img/images-index/dn-12.jpg">
+							</a>
+							<a class="u-2" href="#">
+								<p>"0"元试吃</p>
+								<p>新蟹上市，试吃尝鲜</p>
+								<img src="static/img/images-index/dn-13.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="r-down">
+						<a class="down-p">
+							<img src="static/img/images-index/dn-14.png">
+						</a>
+						<a class="down-p">
+							<img src="static/img/images-index/dn-15.png">
+						</a>
+						<a class="down-p">
+							<img src="static/img/images-index/dn-16.png">
+						</a>
+					</div>
+				</div>
+				<div class="naw-beijing-d"></div>
+			</div>
+		</div>
+	</div>
+<!-- 电脑数码  end -->
+
+<!-- 玩3C爱运动 start-->
+	<div id="naw2" class="nap">
+		<div class="naw2-beijing">
+			<div class="n-l">
+				<div class="naw-beijing-top2 clor6">
+					<h4>玩3C</h4>
+					<div class="erweima2"></div>
+					<div class="daohang2">
+						<a href="">手机</a>
+						<a href="">电脑</a>
+						<a href="">数码</a>
+						<a href="">二手优品</a>
+						<a href="">手机新品</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do2">
+					<div class="do-up">
+						<div class="up-q">
+							<img src="static/img/images-index/wa-1.png">
+						</div>
+						<div class="up-q">
+							<a class="u-7" href="#">
+								<p>3C新品</p>
+								<p>三星<br>Note8新<br>品上市</p>
+								<img src="static/img/images-index/wa-2.jpg">
+							</a>
+							<a class="u-8" href="#">
+								<p>手机贴膜</p>
+								<p>手机支架<br>低至1元</p>
+								<img src="static/img/images-index/wa-3.jpg">
+							</a>
+						</div>
+						<div class="up-q">
+							<a class="u-9" href="#">
+								<p>女神专属</p>
+								<p>富士新机<br>新品首发</p>
+								<img src="static/img/images-index/wa-4.jpg">
+							</a>
+							<a class="u-10" href="#">
+								<p>新机抢购</p>
+								<p>R11 12期免息享<br>好礼</p>
+								<img src="static/img/images-index/wa-5.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do2-down">
+					<a class="down-z">
+						<img src="static/img/images-index/wa-6.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/wa-7.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/wa-8.png">
+					</a>
+				</div>
+				</div>
+			</div>
+			<div class="n-r">
+				<div class="naw-beijing-top3 clor7">
+					<h5>爱运动</h5>
+					<div class="erweima3"></div>
+					<div class="daohang3">
+						<a href="">跑步鞋</a>
+						<a href="">冲锋衣</a>
+						<a href="">动感单车</a>
+						<a href="">电动车</a>
+						<a href="">户外风衣</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do3">
+					<div class="do-up3">
+						<div class="up-m">
+							<img src="static/img/images-index/wa-9.png">
+						</div>
+						<div class="up-m">
+							<a class="u-15" href="#">
+								<p>运动</p>
+								<p>运动潮品</p>
+								<img src="static/img/images-index/wa-10.jpg">
+							</a>
+							<a class="u-16" href="#">
+								<p>健身</p>
+								<p>打造好身<br>材</p>
+								<img src="static/img/images-index/wa-11.jpg">
+							</a>
+						</div>
+						<div class="up-m">
+							<a class="u-17" href="#">
+								<p>户外</p>
+								<p>秋冬上新</p>
+								<img src="static/img/images-index/wa-12.jpg">
+							</a>
+							<a class="u-18" href="#">
+								<p>骑行</p>
+								<p>自由出行</p>
+								<img src="static/img/images-index/wa-13.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do3-down">
+					<a class="down-n">
+						<img src="static/img/images-index/wa-14.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/wa-15.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/wa-16.png">
+					</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 玩3C爱运动  end -->
+	
+<!-- 爱吃 start -->
+	<div id="naw" class="nap">
+		<div class="naw-beijing">
+			<div class="naw-beijing-top">
+				<h3>爱吃</h3>
+				<div class="erweima"></div>
+				<div class="daohang">
+					<a href="">休闲零食</a>
+					<a href="">坚果</a>
+					<a href="">牛奶</a>
+					<a href="">饮料冲调</a>
+					<a href="">食用油</a>
+					<a href="">大米</a>
+					<a href="">白酒</a>
+					<a href="">红酒</a>
+					<a href="">大闸蟹</a>
+					<a href="">冰皮月饼</a>
+					<a href="">蛋挞</a>
+					<a href="">石榴</a>
+					<a href="">冬枣</a>
+				</div>
+			</div>
+			<div class="naw-beijing-down">
+				<div class="down-l">
+					<div class="l-up">
+						<div class="up-w">
+							<img src="static/img/images-index/food9.png">
+						</div>
+						<div class="up-w">
+							<a class="u-3" href="#">
+								<p>粮油调味</p>
+								<p>满149减<br>50</p>
+								<img src="static/img/images-index/food10.jpg">
+							</a>
+							<a class="u-4" href="#">
+								<p>休闲零食</p>
+								<p>满99减<br>50</p>
+								<img src="static/img/images-index/food11.jpg">
+							</a>
+						</div>
+						<div class="up-w">
+							<a class="u-5" href="#">
+								<p>饮料冲调</p>
+								<p>每满99<br>减30</p>
+								<img src="static/img/images-index/food12.jpg">
+							</a>
+							<a class="u-6" href="#">
+								<p>中外名酒</p>
+								<p>满199减<br>100</p>
+								<img src="static/img/images-index/food13.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="l-down">
+						<a class="down-w">
+							<img src="static/img/images-index/food15.jpg">
+						</a>
+						<a class="down-w">
+							<img src="static/img/images-index/food16.jpg">
+						</a>
+						<a class="down-w">
+							<img src="static/img/images-index/food17.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="down-r">
+					<div class="r-up">
+						<div class="up-x">
+							<a href="#">
+								<img src="static/img/images-index/food1.png">
+							</a>
+						</div>
+						<div class="up-x">
+							<a href="#">
+								<img src="static/img/images-index/food2.png">
+							</a>
+						</div>
+						<div class="up-x d1">
+							<a class="u-1" href="#">
+								<p>东家菜</p>
+								<p>精致生活<br>一键立享</p>
+								<img src="static/img/images-index/food3.jpg">
+							</a>
+							<a class="u-2" href="#">
+								<p>"0"元试吃</p>
+								<p>新蟹上市，试吃尝鲜</p>
+								<img src="static/img/images-index/food5.webp">
+							</a>
+						</div>
+					</div>
+					<div class="r-down">
+						<a class="down-p">
+							<img src="static/img/images-index/food6.png">
+						</a>
+						<a class="down-p">
+							<img src="static/img/images-index/food7.png">
+						</a>
+						<a class="down-p">
+							<img src="static/img/images-index/food8.png">
+						</a>
+					</div>
+				</div>
+				<div class="naw-beijing-d"></div>
+			</div>
+		</div>
+	</div>
+<!-- 爱吃 end -->
+
+<!-- 爱游戏 start -->
+	<div id="naw2" class="nap">
+		<div class="naw2-beijing">
+			<div class="n-l">
+				<div class="naw-beijing-top2">
+					<h4>爱游戏</h4>
+					<div class="erweima2"></div>
+					<div class="daohang2">
+						<a href="">女神专区</a>
+						<a href="">装机大师</a>
+						<a href="">私人订制</a>
+						<a href="">游戏周边</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do2">
+					<div class="do-up">
+						<div class="up-q">
+							<img src="static/img/images-index/game.png">
+						</div>
+						<div class="up-q">
+							<a class="u-7" href="#">
+								<p>虚拟充值</p>
+								<p>正品周边<br>玩家必备</p>
+								<img src="static/img/images-index/game-1.jpg">
+							</a>
+							<a class="u-8" href="#">
+								<p>超酷社区</p>
+								<p>资深达人<br>实时解答</p>
+								<img src="static/img/images-index/game-2.jpg">
+							</a>
+						</div>
+						<div class="up-q">
+							<a class="u-9" href="#">
+								<p>游戏装备</p>
+								<p>竞技钢炮<br>彪悍性能</p>
+								<img src="static/img/images-index/game-3.jpg">
+							</a>
+							<a class="u-10" href="#">
+								<p>游戏潮品</p>
+								<p>板卡套装<br>钜惠</p>
+								<img src="static/img/images-index/game-4.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do2-down">
+					<a class="down-z">
+						<img src="static/img/images-index/g1.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/g2.png">
+					</a>
+					<a class="down-z">
+						<img src="static/img/images-index/g3.png">
+					</a>
+				</div>
+				</div>
+			</div>
+			<div class="n-r">
+				<div class="naw-beijing-top3">
+					<h5>京东金融</h5>
+					<div class="erweima3"></div>
+					<div class="daohang3">
+						<a href="">打白条</a>
+						<a href="">筹好物</a>
+						<a href="">享收益</a>
+						<a href="">保险保障</a>
+						<a href="">京东支付</a>
+					</div>
+				</div>
+				<div class="naw-beijing-do3">
+					<div class="do-up3">
+						<div class="up-m">
+							<img src="static/img/images-index/jin1.png">
+						</div>
+						<div class="up-m">
+							<a class="u-15" href="#">
+								<p>IN货推荐</p>
+								<p>立省<br>1600</p>
+								<img src="static/img/images-index/ji1.png">
+							</a>
+							<a class="u-16" href="#">
+								<p>0元试用</p>
+								<p>雷神K60</p>
+								<img src="static/img/images-index/ji2.jpg">
+							</a>
+						</div>
+						<div class="up-m">
+							<a class="u-17" href="#">
+								<p>金融新手</p>
+								<p>送666礼<br>包</p>
+								<img src="static/img/images-index/ji3.jpg">
+							</a>
+							<a class="u-18" href="#">
+								<p>科技酷品</p>
+								<p>119秒杀</p>
+								<img src="static/img/images-index/ji4.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="do3-down">
+					<a class="down-n">
+						<img src="static/img/images-index/jj1.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/jj2.png">
+					</a>
+					<a class="down-n">
+						<img src="static/img/images-index/jj3.png">
+					</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 爱游戏 end -->
+
+<!-- 楼层效果JQ start -->
+	<div class="l-list-c">
+		<ul class="llc-l">
+			<li class="llc-l-item">
+				<a class="item-btn1" href="javascript:;">
+					<span class="btn1-txt">服饰美妆</span>
+				</a>
+			</li>
+			<li class="llc-l-item on">
+				<a class="item-btn1" href="javascript:;">
+					<span class="btn1-txt">家电手机</span>
+				</a>
+			</li>
+			<li class="llc-l-item on">
+				<a class="item-btn1" href="javascript:;">
+					<span class="btn1-txt">电脑数码</span>
+				</a>
+			</li>
+			<li class="llc-l-item on">
+				<a class="item-btn1" href="javascript:;">
+					<span class="btn1-txt">3C运动</span>
+				</a>
+			</li>
+			<li class="llc-l-item on">
+				<a class="item-btn1" href="javascript:;">
+					<span class="btn1-txt">爱吃</span>
+				</a>
+			</li>
+			<li class="llc-l-item on">
+				<a class="item-btn1" href="javascript:;">
+					<span class="btn1-txt">游戏金融</span>
+				</a>
+			</li>
+			<li class="llc-l-item on topr">
+				<a class="item-btn1" href="javascript:;">
+					<span class="btn1-txt">
+					顶部
+					<i class="btn-arr"></i>
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		// 判断滚动窗位置显示楼层
+
+		$(window).scroll(function(){
+			var o = $(window).scrollTop();
+			var maxTop=$('.ftit').offset().top;
+			if(o>maxTop){
+				// alert('ok
+				// $('.l-list-c').css('display','none');
+				$('.l-list-c').fadeIn(1000);
+			}else if(o<maxTop){
+				// $('.l-list-c').css('display','none');
+				$('.l-list-c').fadeOut(1000);
+			}
+
+		});
+		// 判断滚动窗位置显示楼层
+
+
+		$('.llc-l li').mouseover(function(){
+			$(this).css('background','#D70B1C');
+		});
+
+		$('.llc-l li').mouseout(function(){
+			$(this).css('background','#918888');
+		});
+
+			$('.llc-l li').on('click',function(){
+				if($(this).index()==$('.llc-l li').length-1){
+						$('html,body').animate({
+						scrollTop:0
+					},500);
+				}else{
+					var index=$(this).index();
+					var newTop=$('.nap').eq(index).offset().top
+						// $(document).scrollTop(newTop);
+
+					$('html,body').animate({
+						scrollTop:newTop
+					},500);
+
+					$(this).css('background','#D70B1C');
+				}	
+
+			});
+	</script>
+<!-- 楼层效果 end -->
+
+<!-- 页尾部分 start -->
+	<div id="footer">
+    	<div class="footer-beijing">
+    		<div class="footer-beijing-top">
+    			<div class="footer-beijing-top-center">
+    				<ul>
+    					<li>
+    						<div class="img1">
+    							<i class="i20"></i>
+    							<p>品类齐全，轻松购物</p>
+    						</div>
+    					</li>
+    					<li>
+    						<div class="img2">
+    							<i class="i21"></i>
+    							<p>多仓直发，极速配送</p>
+    						</div>
+    					</li>
+    					<li>
+    						<div class="img3">
+    							<i class="i22"></i>
+    							<p>正品行货，精致服务</p>
+    						</div>
+    					</li>
+    					<li>
+    						<div class="img4">
+    							<i class="i23"></i>
+    							<p>天天低价，畅选无忧</p>
+    						</div>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    		<div class="footer-beijing-center">
+    			<div class="footer-beijing-center-beijing">
+    				<div class="div-beijing">
+    					<h5>购物指南</h5>
+    					<ul>
+    						<li><a href="">购物流程</a></li>
+    						<li><a href="">会员介绍</a></li>
+    						<li><a href="">生活旅行</a></li>
+    						<li><a href="">常见问题</a></li>
+    						<li><a href="">大家电</a></li>
+    						<li><a href="">联系客服</a></li>
+    					</ul>
+    				</div>
+    				<div class="div-beijing">
+    					<h5>配送方式</h5>
+    					<ul>
+    						<li><a href="">上门自提</a></li>
+    						<li><a href="">211限时达</a></li>
+    						<li><a href="">配送服务查询</a></li>
+    						<li><a href="">海外配送</a></li>
+    						<li><a href="">配送费收取标准</a></li>
+    					</ul>
+    				</div>
+    				<div class="div-beijing">
+    					<h5>支付方式</h5>
+    					<ul>
+    						<li><a href="">货到付款</a></li>
+    						<li><a href="">分期支付</a></li>
+    						<li><a href="">在线付款</a></li>
+    						<li><a href="">邮局汇款</a></li>
+    						<li><a href="">公司转账</a></li>
+    					</ul>
+    				</div>
+    				<div class="div-beijing">
+    					<h5>售后服务</h5>
+    					<ul>
+    						<li><a href="">售后政策</a></li>
+    						<li><a href="">价格保证</a></li>
+    						<li><a href="">退款说明</a></li>
+    						<li><a href="">返修/退换货</a></li>
+    						<li><a href="">取消订单</a></li>
+    					</ul>
+    				</div>
+    				<div class="div-beijing">
+    					<h5>特色服务</h5>
+    					<ul>
+    						<li><a href="">夺宝岛</a></li>
+    						<li><a href="">DIY装机</a></li>
+    						<li><a href="">延保服务</a></li>
+    						<li><a href="">京东E卡</a></li>
+    						<li><a href="">京东通信</a></li>
+    						<li><a href="">京东JD+</a></li>
+    					</ul>
+    				</div>
+    				<div class="div-beijing">
+    					<h5>京东自营覆盖区县</h5><br>
+    					<p>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+    					<a class="a88" href="">查看详情</a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="footer-beijing-bottom">
+    			<p>
+    				<a href="">关于我们</a>
+    					<span>丨</span>
+    				<a href="">联系我们</a>
+    					<span>丨</span>
+    				<a href="">联系客服</a>
+    					<span>丨</span>
+    				<a href="">合作招商</a>
+    					<span>丨</span>
+    				<a href="">商家帮助</a>
+    					<span>丨</span>
+    				<a href="">营销中心</a>
+    					<span>丨</span>
+    				<a href="">手机京东</a>
+    					<span>丨</span>
+    				<a href="">友情链接</a>
+    					<span>丨</span>
+    				<a href="">销售联盟</a>
+    					<span>丨</span>
+    				<a href="">京东社区</a>
+    					<span>丨</span>
+    				<a href="">风险监测</a>
+    					<span>丨</span>
+    				<a href="">隐私政策</a>
+    					<span>丨</span>
+    				<a href="">京东公益</a>
+    					<span>丨</span>
+    				<a href="">English Site</a>
+    					<span>丨</span>
+    				<a href="">Media & IR</a>
+    			</p>
+
+    			<div class="info">
+    				<p>
+    					<a href="">京公网安备 11000002000088号</a>
+    					<span>丨</span>
+    					<span>京ICP证070359号</span>
+    					<span>丨</span>
+    					<a href="">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+    					<span>丨</span>
+    					<span>新出发京零 字第大120007号</span>
+    				</p>
+    				<span class="span1">
+    					<a href="">互联网出版许可证编号新出网证(京)字150号</a>
+    					<span>丨</span>
+    					<span>出版物经营许可证</span>
+    					<span>丨</span>
+    					<a href="">网络文化经营许可证京网文[2014]2148-348号</a>
+    					<span>丨</span>
+    					<span>违法和不良信息举报电话：4006561155</span>
+    				</span>
+    				<span class="span2">
+    					<a href="">京东旗下网站：京东支付</a>
+    					<span>丨</span>
+    					<a href="">京东云</a>
+    					<span>丨</span>
+    				</span>
+    				<span class="span3">
+    					<a href="">Copyright ? 2004 - 2017  京东JD.com 版权所有</a>
+    					<span>丨</span>
+    					<a href="">消费者维权热线：4006067733</a>
+    				</span>
+    			</div>
+    		<div class="footer-bottom">
+    			<a class="q9" href=""></a>
+    			<a class="q8" href=""></a>
+    			<a class="q7" href=""></a>
+    			<a class="q6" href=""></a>
+    			<a class="q5" href=""></a>
+    			<a class="q4" href=""></a>	
+    		</div>
+    		</div>
+    	</div>
+   </div>
+<!-- 页尾部分 end -->
+</body>
+</html>
